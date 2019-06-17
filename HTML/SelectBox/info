@@ -1,0 +1,16 @@
+#셀렉트박스
+콤보박스, pull-down-menus라고 표현되기도 합니다.
+
+<select id="" name="">
+  <option value="">선택</option>
+  <option value="A">A</option>
+  <option value="B">B</option>
+  <option value="C">C</option>
+</select>
+
+위 예제처럼 <select>태그안에 <option>태그로 구성됩니다.ㅐ
+<option>태그 value속성은 해당 옵션태그가 선택된 경우 전송되는 값을 지정합니다.
+기본값을 지정하려면 selected속성을 사용해야 합니다.
+
+
+  
