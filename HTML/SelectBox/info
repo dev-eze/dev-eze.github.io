@@ -14,7 +14,7 @@
 
 <option value="A" selected="seleted">B</option>
 응용하여 셀렉트박스를 이미 선택하였다면, 선택한값이 기본값이 되게 지정할 수 있습니다.
-<option value="A" <c:if test="${{item.code.value eq 'A'}">selected</c:if> >${item.code.value}</option>
+<option value="A" <c:if test="${item.code.value eq 'A'}">selected</c:if> >${item.code.value}</option>
 
 <optgroup>은 HTML4 버전에서 추가된 태그로 옵션에 카테고리를 지정할 수 있습니다.
 
